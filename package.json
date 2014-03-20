@@ -1,0 +1,19 @@
+{
+  "name": "livescript-generators",
+  "version": "1.0.0",
+  "description": "Bleeding edge async",
+  "main": "lsc index.ls",
+  "dependencies": {
+    "LiveScript": "https://github.com/gkz/LiveScript/tarball/generators",
+    "thunkify": "0.0.1",
+    "co": "^3.0.5",
+    "request": "^2.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lsc -n --harmony index.ls"
+  },
+  "author": "Joe Stanton",
+  "license": "ISC"
+}
