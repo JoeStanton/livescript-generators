@@ -7,12 +7,13 @@
     "LiveScript": "https://github.com/gkz/LiveScript/tarball/generators",
     "thunkify": "0.0.1",
     "co": "^3.0.5",
-    "request": "^2.34.0"
+    "request": "^2.34.0",
+    "redis": "^0.10.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lsc -n --harmony index.ls"
+    "start": "lsc -n --harmony index.ls && lsc -n --harmony redis.ls"
   },
   "author": "Joe Stanton",
   "license": "ISC"
